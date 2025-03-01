@@ -2,7 +2,7 @@ const today = new Date();
 
 const year = today.getFullYear(2025); // 年の取得
 
-const month = today.getMonth(1) + 1; // 月の取得、月は0から始まるため+1する
+const month = today.getMonth() + 1; // 月の取得、月は0から始まるため+1する
 
 const day = today.getDate(23); // 日付（日）の取得
 
